@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 50px;
+  border-bottom: 1px solid #dbd7d7;
+  padding: 0 0 10px;
+}
+.logo {
+  width: 60px;
+}
+.myDivar {
+  cursor: pointer;
+  position: relative;
+  /* padding: 10px; */
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(178, 178, 178);
+}
+.default {
+  cursor: pointer;
+  position: relative;
+  /* padding: 10px; */
+  border-radius: 5px;
+  padding: 5px;
+}
+.navbarList {
+  position: absolute;
+  top: 85px;
+  left: 200px;
+  z-index: 1;
+  background-color: rgb(178, 178, 178);
+  list-style-type: none;
+  /* border: 1px solid rgb(59, 59, 57); */
+  padding: 15px 15px;
+  width: 200px;
+  height: 380px;
+  text-align: right;
+  border-radius: 5px;
+}
+.navbarList li {
+  margin: 25px 0;
+  border-bottom: 1px solid #000000;
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 8px 0px;
+}
+
+.navbarList > span {
+  display: flex;
+  flex-direction: column;
+}
+.navbarList span span {
+  display: flex;
+  margin-bottom: 10px;
+}
+.navbarList span img {
+  width: 14px;
+  margin-left: 5px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.location img {
+  width: 30px;
+  color: silver;
+}
+.header div {
+  display: flex;
+  align-items: center;
+}
+.myDashboard {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.myDashboard a {
+  margin-left: 4px;
+}
+.button {
+  background-color: #a62626;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbarList li:last-child {
+  display: flex;
+  /* align-items: center; */
+  color: #a62626;
+  border-bottom: none;
+}
+.navbarList li:last-child span {
+  font-size: 1.2rem;
+  color: #a62626;
+  margin-left: 10px;
+}
+.myDashboard img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.enter {
+  display: flex;
+  align-items: center;
+  color: green;
+}
+.enter p {
+  margin: 0 4px;
+}

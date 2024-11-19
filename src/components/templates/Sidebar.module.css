@@ -1,0 +1,29 @@
+.container {
+  width: 20%;
+}
+.categories {
+  list-style-type: none;
+}
+.categories li {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+  cursor: pointer;
+  width: 300px;
+  padding: 10px 0;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+}
+.categories li h5 {
+  margin-right: 5px;
+}
+.categories li img {
+    width: 20px;
+}
+.container h3 {
+  border-bottom: 4px solid #fff;
+  width: fit-content;
+}
+.categories li:hover {
+  color: aquamarine;
+}

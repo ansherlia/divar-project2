@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid #e9cccc;
+  border-radius: 5px;
+  /* text-align: justify; */
+  margin-top: 30px;
+  padding: 15px;
+  height: 110px;
+}
+.list {
+  margin-top: 50px;
+  border-bottom: 4px solid #a62626;
+  width: fit-content;
+  padding: 5px 0;
+  font-size: 1.5rem;
+}
+.container img {
+  width: 80px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: justify;
+  color: rgb(33, 21, 4);
+}
